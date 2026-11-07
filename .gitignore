@@ -1,0 +1,30 @@
+# окружение и секреты
+.env
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# локальные данные и дампы
+*.rdb
+*.aof
+dump.rdb
+appendonly*
+*.sqlite
+*.db
+
+# служебные файлы
+.idea/
+.vscode/
+*.log.tmp
+*.swp
+.DS_Store
+history.bundle
+project.zip
